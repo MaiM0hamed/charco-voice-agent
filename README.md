@@ -2,21 +2,8 @@ Charco Chicken Voice Agent (Syrian Arabic)
 
 👋 A real-time AI voice assistant that handles phone orders in Syrian Arabic for Charco Chicken. Built using Twilio SIP, PlayHT TTS, Whisper STT, and Streamlit for testing.
 
-📂 Project Structure
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/9ef9038b-5a99-443c-ba1d-beeafcf2f5bc" />
 
-charco-voice-agent/
-├── api_submit_order.py         # ✅ Order API: /submit-order
-├── sip_configtwilio_config.py  # ✅ Twilio SIP voice entry + gather
-├── twilio_config.py            # (duplicate SIP logic)
-├── stt_ttstts.py               # ⚠️ Using unofficial PlayHT SDK (replace with REST)
-├── text_t0speech.py            # ⚠️ Same as above
-├── nlp_intent_detector.py      # ✅ Simple Arabic intent detection
-├── ui.py                       # ✅ Streamlit testing interface
-├── ngrok.exe                   # ✅ For local-to-public tunneling
-├── .env                        # 🔐 (not uploaded) should contain PlayHT + Twilio creds
-├── README.md                   # 📃 Project documentation
-└── data/
-    └── orders.json             # ✅ Saved orders (append-only log)
 
 🔗 Tool Choices
 
